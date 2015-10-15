@@ -24,7 +24,6 @@ header {
 
 .hero {
   background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
   min-height: 200px;
   text-align: center;
   padding: 42px;
@@ -38,7 +37,8 @@ main {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 9px; }
+  padding: 0 9px;
+  max-width: 965px; }
   main::after {
     clear: both;
     content: "";
@@ -156,3 +156,7 @@ footer {
     width: 47.64406%; }
     .reasons article.reason:last-child {
       margin-right: 0; } }
+
+@media (min-width: 979px) {
+  section.hero {
+    background-size: cover; } }

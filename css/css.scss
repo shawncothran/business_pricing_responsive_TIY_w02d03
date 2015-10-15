@@ -28,7 +28,6 @@ header {
 
 .hero  {
   background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
   min-height: 200px;
   text-align: center;
   padding: 42px;
@@ -44,6 +43,7 @@ header {
 main {
   @include outer-container;
   padding: 0 9px;
+  max-width: 965px;
 }
 
 footer {
@@ -179,6 +179,8 @@ footer {
     @include span-columns(5.862);
   }
 }
-// @media (min-width:979px){
-//
-// }
+@media (min-width:979px){
+  section.hero {
+    background-size: cover;
+  }
+}
