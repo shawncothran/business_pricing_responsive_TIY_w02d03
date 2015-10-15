@@ -53,7 +53,7 @@ footer {
   footer a {
     color: #fff; }
 
-main section.options article {
+.options article {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -61,51 +61,51 @@ main section.options article {
   border: 1px solid #cde;
   text-align: center;
   margin-bottom: 34px; }
-  main section.options article:last-child {
+  .options article:last-child {
     margin-right: 0; }
-  main section.options article:last-of-type {
+  .options article:last-of-type {
     margin-bottom: 75px; }
-  main section.options article section {
+  .options article section {
     color: #fff;
-    padding: 30px; }
-    main section.options article section h3, main section.options article section h4, main section.options article section h5 {
+    padding: 30px 0; }
+    .options article section h3, .options article section h4, .options article section h5 {
       margin: 0;
       letter-spacing: 3px; }
-    main section.options article section h3 {
+    .options article section h3 {
       font-size: 17px; }
-    main section.options article section h4 {
+    .options article section h4 {
       font-size: 93px;
       font-weight: lighter; }
-    main section.options article section h5 {
+    .options article section h5 {
       font-size: 22px;
       letter-spacing: 0px;
       margin: 5px 0; }
-  main section.options article .personal {
+  .options article .personal {
     background: #519251; }
-    main section.options article .personal > h5 {
+    .options article .personal > h5 {
       font-size: 19px;
       letter-spacing: 0px;
       color: #A7C8A7; }
-  main section.options article .small {
+  .options article .small {
     background: #2C4985; }
-    main section.options article .small > h5 {
+    .options article .small > h5 {
       font-size: 19px;
       letter-spacing: 0px;
       color: #909FBF; }
-  main section.options article .enterprise {
+  .options article .enterprise {
     background: #111; }
-    main section.options article .enterprise > h5 {
+    .options article .enterprise > h5 {
       font-size: 19px;
       letter-spacing: 0px;
       color: #868686; }
-  main section.options article > h5 {
+  .options article > h5 {
     border-bottom: 1px solid #cde;
     line-height: 44px;
     margin: 0;
     font-size: 16px;
     color: #555;
     background: #F7F7F7; }
-  main section.options article div button {
+  .options article div button {
     background: none;
     margin: 20px;
     border-radius: 50px;
@@ -114,12 +114,12 @@ main section.options article {
     font-weight: bold;
     font-size: 16px; }
 
-main section.reasons article {
+.reasons article {
   padding: 0 20px; }
-  main section.reasons article p {
+  .reasons article p {
     line-height: 25px;
     color: #556369; }
-  main section.reasons article h3 {
+  .reasons article h3 {
     letter-spacing: 5px; }
 
 .reasons h3 {
@@ -139,3 +139,20 @@ main section.reasons article {
       font-size: 48px; }
   footer {
     padding: 8px 35px; } }
+
+@media (min-width: 768px) {
+  .options article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-bottom: 34px; }
+    .options article:last-child {
+      margin-right: 0; }
+  .reasons article.reason {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 47.64406%; }
+    .reasons article.reason:last-child {
+      margin-right: 0; } }
