@@ -48,7 +48,7 @@ footer {
   background: #111;
   padding: 8px 16px;
   color: #888;
-  line-height: 30px;
+  line-height: 25px;
   text-align: center; }
   footer a {
     color: #fff; }
@@ -63,6 +63,8 @@ main section.options article {
   margin-bottom: 34px; }
   main section.options article:last-child {
     margin-right: 0; }
+  main section.options article:last-of-type {
+    margin-bottom: 75px; }
   main section.options article section {
     color: #fff;
     padding: 30px; }
@@ -115,13 +117,14 @@ main section.options article {
 main section.reasons article {
   padding: 0 20px; }
   main section.reasons article p {
-    line-height: 20px; }
+    line-height: 25px; }
   main section.reasons article h3 {
     letter-spacing: 5px; }
 
 .reasons h3 {
   text-transform: uppercase;
-  margin-top: 40px; }
+  margin-top: 39px; }
 
 .reason {
-  text-align: left; }
+  text-align: left;
+  overflow: auto; }

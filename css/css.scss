@@ -50,7 +50,7 @@ footer {
   background: #111;
   padding: 8px 16px;
   color: #888;
-  line-height: 30px;
+  line-height: 25px;
   text-align: center;
 
   a {
@@ -64,9 +64,9 @@ main section.options article {
   border: 1px solid #cde;
   text-align: center;
   margin-bottom: 34px;
-  // &:last-of-type {
-  //   margin-bottom: 77px;
-  // }
+  &:last-of-type {
+    margin-bottom: 75px;
+  }
 
   section {
     color: #fff;
@@ -140,7 +140,7 @@ main section.options article {
 main section.reasons article {
   padding: 0 20px;
   p {
-    line-height: 20px;
+    line-height: 25px;
   }
   h3 {
     letter-spacing: 5px;
@@ -149,8 +149,9 @@ main section.reasons article {
 
 .reasons h3 {
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 39px;
 }
 .reason {
   text-align: left;
+  overflow: auto;
 }
