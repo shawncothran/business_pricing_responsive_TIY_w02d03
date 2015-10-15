@@ -117,7 +117,8 @@ main section.options article {
 main section.reasons article {
   padding: 0 20px; }
   main section.reasons article p {
-    line-height: 25px; }
+    line-height: 25px;
+    color: #556369; }
   main section.reasons article h3 {
     letter-spacing: 5px; }
 
@@ -128,3 +129,11 @@ main section.reasons article {
 .reason {
   text-align: left;
   overflow: auto; }
+
+@media (min-width: 479px) {
+  .hero {
+    min-height: 400px;
+    padding: 112px 0 0 0; }
+    .hero h1 {
+      text-shadow: 1px 2px #777;
+      font-size: 48px; } }

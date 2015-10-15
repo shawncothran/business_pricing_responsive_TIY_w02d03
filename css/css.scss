@@ -141,6 +141,7 @@ main section.reasons article {
   padding: 0 20px;
   p {
     line-height: 25px;
+    color: #556369;
   }
   h3 {
     letter-spacing: 5px;
@@ -155,3 +156,22 @@ main section.reasons article {
   text-align: left;
   overflow: auto;
 }
+
+// @media (max-width:767px) and (min-width:479px){
+@media (min-width:479px){
+  .hero  {
+    min-height: 400px;
+    padding: 112px 0 0 0;
+
+    h1 {
+      text-shadow: 1px 2px #777;
+      font-size: 48px;
+    }
+  }
+}
+// @media (max-width:978px) and (min-width:768px){
+//
+// }
+// @media (min-width:979px){
+//
+// }
